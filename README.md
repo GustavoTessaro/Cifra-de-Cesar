@@ -414,7 +414,7 @@ abcdefghijklmnopqrstuvwxyz
 
 Texto com acentos: á é í ó ú ã õ ç.
 A chave utilizada neste exemplo sera 3.
-
+```
 ---
 
 ## 🧪 Testes automatizados
