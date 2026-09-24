@@ -417,6 +417,38 @@ A chave utilizada neste exemplo sera 3.
 ```
 ---
 
+### Resultado da criptografia
+
+Utilizando a chave `3`, o arquivo `exemplo_cript.txt` contém:
+
+```text
+Vhjxudqfd Frpsxwdflrqdo
+Fliud gh Fhvdu - Whvwh 123!
+
+DEFGHIJKLMNOPQRSTUVWXYZABC
+defghijklmnopqrstuvwxyzabc
+
+Whawr frp dfhqwrv: á é í ó ú ã õ ç.
+D fkdyh xwlolcdgd qhvwh hahpsor vhud 3.
+```
+
+É possível observar que as letras de `A-Z` e `a-z` foram deslocadas três posições, enquanto números, espaços, pontuação e caracteres acentuados foram preservados.
+
+### Resultado da descriptografia
+
+Ao descriptografar `exemplo_cript.txt` utilizando novamente a chave `3`, o programa gera:
+
+```text
+exemplo_cript_descript.txt
+```
+
+O conteúdo desse arquivo corresponde ao conteúdo original de `exemplo.txt`, comprovando o processo de cifragem e decifragem.
+
+> [!NOTE]
+> Os três arquivos são mantidos no repositório como registro da demonstração. Novos arquivos criados durante testes locais na pasta `exemplos/` são ignorados pelo Git.
+
+---
+
 ## 🧪 Testes automatizados
 
 O projeto utiliza **MSTest** para verificar automaticamente o funcionamento das principais regras.
