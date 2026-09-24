@@ -33,3 +33,9 @@ Thumbs.db
 *.tmp
 *.temp
 *.log
+
+# Arquivos gerados em novos testes locais
+/exemplos/*
+!/exemplos/exemplo.txt
+!/exemplos/exemplo_cript.txt
+!/exemplos/exemplo_cript_descript.txt
