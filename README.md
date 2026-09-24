@@ -85,7 +85,9 @@ Cifra-de-Cesar/
 │           └── CifraCesarTests.cs
 │
 ├── exemplos/
-│   └── exemplo.txt
+│   ├── exemplo.txt
+│   ├── exemplo_cript.txt
+│   └── exemplo_cript_descript.txt
 │
 ├── CifraDeCesar.slnx
 └── README.md
@@ -391,15 +393,17 @@ Na aplicação:
 
 ---
 
-## 📝 Arquivo de exemplo
+## 📝 Arquivos de exemplo
 
-O repositório possui um arquivo preparado para demonstração:
+A pasta `exemplos/` contém os arquivos utilizados na demonstração completa da aplicação.
 
-```text
-exemplos/exemplo.txt
-```
+| Arquivo | Descrição |
+|---|---|
+| `exemplo.txt` | Arquivo original utilizado como entrada |
+| `exemplo_cript.txt` | Resultado da criptografia utilizando chave `3` |
+| `exemplo_cript_descript.txt` | Resultado da descriptografia |
 
-Conteúdo:
+### Arquivo original
 
 ```text
 Seguranca Computacional
@@ -410,16 +414,6 @@ abcdefghijklmnopqrstuvwxyz
 
 Texto com acentos: á é í ó ú ã õ ç.
 A chave utilizada neste exemplo sera 3.
-```
-
-Com a chave `3`, os alfabetos são transformados em:
-
-```text
-DEFGHIJKLMNOPQRSTUVWXYZABC
-defghijklmnopqrstuvwxyzabc
-```
-
-Enquanto os caracteres acentuados permanecem preservados.
 
 ---
 
