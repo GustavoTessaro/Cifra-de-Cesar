@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CifraDeCesar.Core/CifraDeCesar.Core.csproj" />
+    <Project Path="src/CifraDeCesar.WinForms/CifraDeCesar.WinForms.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CifraDeCesar.Tests/CifraDeCesar.Tests.csproj" />
+  </Folder>
+</Solution>
